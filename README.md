@@ -45,7 +45,7 @@ This application follows a decoupled **3-tier serverless architecture**:
 
 * **API:** API Gateway (REST API) 🛣️
 * **Integration:** Lambda Proxy Integration 🔌
-* **Runtime:** Node.js 20.x 🟢
+* **Runtime:** Node.js 24.x 🟢
 * **Security:** IAM Least Privilege Execution Roles 🔐🛡️
 
 ### 📊 Data Tier
@@ -99,14 +99,6 @@ This application follows a decoupled **3-tier serverless architecture**:
 * **API Gateway:** $0 (Free Tier eligible) 🛣️
 * **DynamoDB/S3:** Negligible/Free 📉
 * **Total:** **~$0.00/month** under standard usage! 🤑
-
----
-
-## 🧪 How to Run Locally (Frontend Only)
-
-1. 📂 **Clone:** `git clone [repo-link]`
-2. 🔗 **Update:** Replace API endpoint in `script.js`.
-3. 🚀 **Launch:** Open `index.html` in your browser.
 
 ---
 
